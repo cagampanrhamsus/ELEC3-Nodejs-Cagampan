@@ -12,6 +12,25 @@ Course: ELEC 3 - Node.js
 | N2 | Modular calculator using custom modules and `process.argv` | [set1/n2-calculator](set1/n2-calculator) |
 | N3 | File manager using the `fs` and `path` modules | [set1/n3-file-manager](set1/n3-file-manager) |
 
+## Project Structure
+
+```text
+set1/
+├── n1-setup/
+│   ├── index.js
+│   ├── package.json
+│   └── screenshots/
+├── n2-calculator/
+│   ├── index.js
+│   ├── operations.js
+│   ├── formatter.js
+│   └── screenshots/
+└── n3-file-manager/
+    ├── index.js
+    ├── files/
+    └── screenshots/
+```
+
 ## How to Run
 
 Make sure Node.js and npm are installed.
